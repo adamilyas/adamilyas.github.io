@@ -1,7 +1,3 @@
-p {
-font-size: 14px;
-}
-
 .nav a {
     font-size: 20px;
     font-family: Raleway;
@@ -27,7 +23,12 @@ font-size: 14px;
     
 }
 
-.content {
-    margin-top: 60px;
+.content {  
+    margin-top: 50px;
     font-family: Raleway;
+}
+
+
+.courses p, .courses a, .courses li {
+font-size: 16px;
 }
