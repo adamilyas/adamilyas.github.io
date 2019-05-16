@@ -4,15 +4,11 @@
 }
 
 .avatar img {
-    margin-top: 60px;
+    margin-top: 30px;
     height: 350px;
     width: auto;
     position: relative;
     overflow: hidden;
-}
-
-.avatar h1 {
-    margin-bottom: 20px;
 }
 
 .resume {
@@ -23,11 +19,22 @@
     
 }
 
-.content {  
-    margin-top: 50px;
-    font-family: Raleway;
+@media screen and (max-width: 700px) {
+    .content {  
+        font-family: Raleway;
+    }
+    .navbar-fixed-top {
+        position: relative !important;
+        top: auto !important;
+    }    
 }
 
+@media screen and (min-width: 700px) {
+    .content {  
+        margin-top: 60px;
+        font-family: Raleway;
+    }
+}
 
 .courses p, .courses a, .courses li {
 font-size: 16px;
